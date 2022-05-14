@@ -10,7 +10,9 @@ private:
 	//TODO - Representation
 		
     ListIterator(const IndexedList& lista);
+    TElem current_index;
 public:
+    void previous();
     void first();
     void next();
     bool valid() const;

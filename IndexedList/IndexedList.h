@@ -9,6 +9,12 @@ class ListIterator;
 class IndexedList {
 private:
 	//TODO - Representation
+    TElem* elems;
+    int* next;
+    int cap;
+    int head;
+    int firstEmpty;
+    int length;
 	
 	//DO NOT CHANGE THIS PART
     friend class ListIterator;    
